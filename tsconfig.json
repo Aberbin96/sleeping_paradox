@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "src",
+    "paths": {
+      "assets/*": ["assets/*"],
+      "atoms/*": ["components/atoms/*"],
+      "molecules/*": ["components/molecules/*"],
+      "organisms/*": ["components/organisms/*"],
+      "utils/*": ["utils/*"],
+      "interfaces/*": ["interfaces/*"],
+    },
+    "jsx": "react",
+    "rootDir": "src",
+    "noImplicitAny": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+} 
